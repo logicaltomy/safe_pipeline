@@ -14,25 +14,28 @@ El proyecto implementa un flujo seguro de SDLC con:
 
 Construir, probar, analizar y mitigar vulnerabilidades en una aplicacion web Flask de laboratorio, manteniendo trazabilidad tecnica y evidencias para auditoria.
 
-## Estructura
+## Estructura publicada
 
 ```text
 .
-├── app/
-│   ├── app.py
-│   ├── .dockerignore
-│   ├── Dockerfile
-│   └── requirements.txt
-├── docs/
-│   └── references/
-├── monitoring/
-│   └── prometheus.yml
-├── scripts/
-│   └── md_to_docx.py
 ├── .github/
 │   └── dependabot.yml
-├── README.md
+├── Docs/
+│   ├── Desarrollo EV3 (1).docx
+│   └── Parcial 3_OCY1102_Instrucciones y Pauta_Estudiante (4).docx
+├── app/
+│   ├── __pycache__/
+│   │   └── app.cpython-312.pyc
+│   ├── .dockerignore
+│   ├── Dockerfile
+│   ├── app.py
+│   └── requirements.txt
+├── monitoring/
+│   └── prometheus.yml
+├── .gitignore
 ├── Jenkinsfile
+├── README.md
+├── dependency-audit.txt
 └── docker-compose.yml
 ```
 
@@ -42,15 +45,14 @@ Construir, probar, analizar y mitigar vulnerabilidades en una aplicacion web Fla
 - `Python 3`
 - Navegador web para `Jenkins` y `Grafana`
 
-## Artefactos locales no versionados
+## Artefactos locales no publicados
 
-Estos archivos pueden existir en tu entorno de trabajo, pero no forman parte del commit final:
+Durante el laboratorio pueden existir archivos adicionales de trabajo local que no necesariamente forman parte del snapshot publicado:
 
-- `docs/evidence/Evaluacion.md`
-- `docs/evidence/Evaluacion.docx`
-- `docs/evidence/image/`
+- `docs/evidence/`
 - `reports/`
 - `.venv/`
+- `scripts/md_to_docx.py`
 
 ## Servicios
 
@@ -123,6 +125,8 @@ Generar el informe `.docx` desde el markdown de evidencias local:
 python3 scripts/md_to_docx.py docs/evidence/Evaluacion.md docs/evidence/Evaluacion.docx
 ```
 
+Ese script se usa en el entorno local de trabajo y puede no estar presente en todos los snapshots publicados del repositorio.
+
 ## Estado del laboratorio
 
 El laboratorio ya cubre:
@@ -135,5 +139,5 @@ El laboratorio ya cubre:
 
 ## Referencias academicas
 
-- Pauta base: [`docs/references/Parcial 3_OCY1102_Instrucciones y Pauta_Estudiante (4).docx`](docs/references/Parcial%203_OCY1102_Instrucciones%20y%20Pauta_Estudiante%20%284%29.docx)
-- Plantilla de entrega: [`docs/references/Desarrollo EV3 (1).docx`](docs/references/Desarrollo%20EV3%20%281%29.docx)
+- Pauta base: `Docs/Parcial 3_OCY1102_Instrucciones y Pauta_Estudiante (4).docx`
+- Plantilla de entrega: `Docs/Desarrollo EV3 (1).docx`
