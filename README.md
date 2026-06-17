@@ -61,7 +61,7 @@ Estos archivos pueden existir en tu entorno de trabajo, pero no forman parte del
 
 ## Aplicacion
 
-La aplicacion web esta en [app/app.py](/home/tomy/Downloads/Instituto/Ciber/app/app.py:1).
+La aplicacion web esta en [`app/app.py`](app/app.py).
 
 Incluye:
 
@@ -73,7 +73,7 @@ Incluye:
 
 ## Pipeline
 
-El pipeline esta definido en [Jenkinsfile](/home/tomy/Downloads/Instituto/Ciber/Jenkinsfile:1) e incluye:
+El pipeline esta definido en [`Jenkinsfile`](Jenkinsfile) e incluye:
 
 - `Dependencies`
 - `Build`
@@ -135,5 +135,5 @@ El laboratorio ya cubre:
 
 ## Referencias academicas
 
-- Pauta base: [docs/references/Parcial 3_OCY1102_Instrucciones y Pauta_Estudiante (4).docx](/home/tomy/Downloads/Instituto/Ciber/docs/references/Parcial%203_OCY1102_Instrucciones%20y%20Pauta_Estudiante%20%284%29.docx)
-- Plantilla de entrega: [docs/references/Desarrollo EV3 (1).docx](/home/tomy/Downloads/Instituto/Ciber/docs/references/Desarrollo%20EV3%20%281%29.docx)
+- Pauta base: [`docs/references/Parcial 3_OCY1102_Instrucciones y Pauta_Estudiante (4).docx`](docs/references/Parcial%203_OCY1102_Instrucciones%20y%20Pauta_Estudiante%20%284%29.docx)
+- Plantilla de entrega: [`docs/references/Desarrollo EV3 (1).docx`](docs/references/Desarrollo%20EV3%20%281%29.docx)
